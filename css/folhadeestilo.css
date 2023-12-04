@@ -1,0 +1,340 @@
+/* inicia todos os elementos com o magin 0 e padding 0 */
+* {  
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.container-principal {
+    text-align: center;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color:#777;}
+
+/* definir as propiedades do topo */
+head {
+    width: 100%;
+    height: 100px;
+    background-color: #FFF;
+    position: relative;
+    top: 0;
+}
+#menu ul li img {
+    float: left;
+    margin-right: 10px;
+  }
+#menu {
+    background-color: #fff;
+    width: 100%;
+}
+#menu ul {
+    list-style: none;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li {
+    color: #0c0c54;
+    display: inline-block;
+    position: relative;
+}
+#menu ul li a {
+    color: #0c0c54;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+#menu ul li.active a {
+    color: #777;
+    font-weight: bold;
+}
+#menu ul li a:hover {
+background-color: #cbcbcb;
+}
+#menu ul li a {
+    transition: background 0.3s;
+  }
+  #menu ul li a:hover {
+    transform: scale(1.1);
+  }
+/* definir propriedades do banner-topo */
+#banner{
+    width: 100%;
+    
+}
+#banner img{
+    width: 100%;
+    margin-bottom: 0;
+    border-radius: 30px;
+}
+/* definer a cor de fundo das páginas sobre, soluções e contato */
+.color-page {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+/* definir as propriedades da página principal */
+.sobrenos-pai {
+    padding: 54 54;
+    display: flex;
+    align-items: center;
+}
+.caixa-sobrenois {
+    background-color: rgb(247, 247, 247);
+    font-size: 6rem;
+    margin: 0rem;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    align-items: center;
+}
+.caixa-sobrenois h2 {
+    color: #0c0c54;
+    font-size: 35px;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.caixa-sobrenois p {
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+    color: #0C0C54;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+.img-sobre{
+    display: flex;
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    max-width: 100%;
+}
+.img-sobre img{
+    max-width: 500px;
+    border-radius: 30px;
+}
+.saibamais {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    background: url(../imagem/saibamais.png) no-repeat left;
+    background-color: #0C0C54;
+    border-color: #ffffff;
+    color: #FFFFFF;
+    padding: 10px 35px;
+    margin: 10px;
+    transition: 250ms ease-in-out;
+}
+.saibamais:hover {
+    transform: scale(1.1);
+}
+.solucoes { 
+    padding: 54 54;
+    display: flex;
+    align-items: left;
+}
+.caixa-solucoes {
+    background-color: rgb(247, 247, 247);
+    font-size: 6rem;
+    margin: 0rem;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    align-items: center;
+}
+.caixa-solucoes h2 {
+    color: #0c0c54;
+    position: relative;
+    font-size: 35px;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.caixa-solucoes p {
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+    color: #0C0C54;
+    font-size: 1.2rem;
+    padding: .3rem;
+    margin-bottom: .5rem;
+}
+.img-solucoes{
+    display: flex;
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    max-width: 100%;
+}
+.img-solucoes img{
+    max-width: 500px;
+    border-radius: 30px;
+}
+/* definir as propriedades da página sobre nós */
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa-principal {
+    margin: 1rem;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    flex-wrap: wrap;
+}
+.subcaixa {
+    background-color: #23a1a1fb;
+    margin: .7rem;
+    width: 20rem;
+    height: 180px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px 1px #0000005d;
+    transition: 360ms ease-in-out;
+}
+.subcaixa:hover {
+    transform: scale(1.1);
+}
+.subcaixa h3 {
+    font-size: 1rem;
+    padding: .3rem;
+    align-items: center;
+    justify-content: center;
+}
+.subcaixa p {
+    /* background-color: darkolivegreen; */
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(239, 245, 245);
+    font-size: 1.2rem;
+    padding: .3rem;
+    margin-bottom: .5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.caixa2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcaixa2 {
+    background-color: #23a1a1fb;
+    margin: .7rem;
+    width: 20rem;
+    height: 280px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px 1px #0000005d;
+    transition: 360ms ease-in-out;
+}
+.subcaixa2:hover {
+    transform: scale(1.1);
+}
+.subcaixa2 h3 {
+    font-size: 1rem;
+    padding: .3rem;
+    align-items: center;
+    justify-content: center;
+}
+.subcaixa2 p {
+    /* background-color: darkolivegreen; */
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(239, 245, 245);
+    font-size: 1.2rem;
+    padding: .3rem;
+    margin-bottom: .5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Definições da página SOLUÇÕES */
+.caixa-principal-solucoes {
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    height: 200px;
+    padding: 10px 0;
+    margin: 0;
+}
+.topo-solucoes h1 {
+    background-color: #0078d4;
+    color: #0c0c54;
+    position: relative;
+    margin: 10px;
+    width: fit-content;
+    font-size: 35px;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.topo-solucoes p {
+    background-color: #777;
+    text-align: left;
+    margin: 10px;
+    width: fit-content;
+    color: #0c0c54;
+    font-size: 1.5rem;
+    padding: .3rem;
+    margin-bottom: .5rem; 
+}
+/* Define a fonte, a cor de fundo e as margens do formulário */
+form {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: #0C0C54;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+  /* Define o estilo dos rótulos dos campos */
+  label {
+    display: block;
+    margin-bottom: 5px;
+}
+  /* Define o estilo dos campos de entrada */
+  input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+  /* Define o estilo do botão de envio */
+  input[type="submit"] {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+  /* Define o estilo do campo de mensagem */
+  textarea {
+    resize: none;
+}

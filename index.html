@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SC Software | Gestão Fiscal</title>
+        <link rel="stylesheet" type= "text/css" href="css/folhadeestilo.css">
+    </head>
+
+    <body class="color-page">
+        <div class="container-principal">
+            <header>
+                <nav id="menu">
+                    <ul>
+                        <li><img src="imagem/logo.png" alt="Logo da empresa" width="100" height="50"></li>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobrenos.html">Sobre nós</a></li>
+                        <li><a href="solucoes.html">Soluções</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+            <section id="banner">
+                <a href="contato.html">
+                    <img src="imagem/banner-topo.png" alt="banner-topo"/>
+                </a>
+            </section>
+
+        <section class="sobrenos-pai"> 
+            <div class="caixa-sobrenois">
+                <h2>Sobre nós</h2>
+                <p>Inconformados com os controles manuais, erros de cálculo e tempo desperdiçado,<br>
+                    criamos soluções que oferecem o que há de mais novo em processos de gestão<br>
+                    contábil e fiscal! A SC Software oferece as ferramentas mais completas e inovadora<br> 
+                    para otimizar a gestão da sua contabilidade. Automatizamos suas operações, acabamos<br> 
+                    com seu trabalho manual e conduzimos o setor contábil do Brasil para o digital.
+                </p>
+                <a href="sobrenos.html">
+                    <button class="saibamais">
+                    Saiba mais
+                    </button>
+                </a>
+                    
+            </div>
+            <div class="img-sobre">
+                <img src="imagem/divsobre.png" alt="imagem aleatoria"/>
+            </div>
+        </section>
+
+        <section class="solucoes">
+            <div class="caixa-solucoes"> 
+                <h2>Sua contabilidade como<br> um investimento para os seus clientes!</h2>
+                <p>Feita para quem não quer mais perder horas com processos manuais, o SC Software <br>
+                    é a ferramenta pioneira que busca as informações  do portal do e-CAC,<br>
+                    driblando as instabilidades, e as organiza em uma plataforma<br> 
+                    livre de burocracias e fácil de usar. Essencial para contadores e contabilidades<br> 
+                    se destacarem em um mercado com velocidade e dinamismo nas operações.<br>
+                    São mais de 30 funções para otimizar a automatizar os processos <br>
+                    contábeis e fiscais e mais de 5.000 contabilidades que aprovam o SC Software.
+                </p>
+                    
+                <a href="solucoes.html">
+                    <button class="saibamais">
+                    Saiba mais
+                    </button>
+                </a>
+                        
+            </div>
+            <div class="img-solucoes">
+                <img src="imagem/img-solucoes.png" alt="imagem aleatoria"/>
+            </div>
+        </section>
+
+                <footer>
+                    <form action="enviar.py" method="post"> <!-- decidir se será em python ou javascript-->
+                        <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                        </div>
+
+                        <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required>
+                        </div>
+
+                        <div>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" cols="40" required></textarea>
+                        </div>
+
+                        <div>
+                        <input type="submit" value="Pedir demonstração">
+                        </div>
+                    </form>
+                </footer>
+    </body>
+</html>

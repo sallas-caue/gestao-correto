@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato | SC Software</title>
+        <link rel="stylesheet" type= "text/css" href="css/folhadeestilo.css">
+    </head>
+
+    <body class="color-page">
+        <div class="container-principal">
+            <header>
+                <nav id="menu">
+                    <ul>
+                        <li><img src="imagem/logo.png" alt="Logo da empresa" width="100" height="50"></li>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobrenos.html">Sobre nós</a></li>
+                        <li><a href="solucoes.html">Soluções</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+            <section id="banner">
+                <img src="imagem/contato.png" alt="banner contato">
+            </section>
+                <footer>
+                    <form action="enviar.py" method="post"> <!-- decidir se será em python ou javascript-->
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+        
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+        
+                        <div>
+                            <label for="assunto">Assunto:</label>
+                            <input type="text" id="assunto" name="assunto" required>
+                        </div>
+        
+                        <div>
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" cols="40" required></textarea>
+                        </div>
+        
+                        <div>
+                            <input type="submit" value="Pedir demonstração">
+                        </div>
+                    </form>
+                </footer>
+    </body>
+</html>
